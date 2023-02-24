@@ -129,4 +129,57 @@ h4 {
         right: 1px;
 }
 
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #DCDCDC;
+}
 
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: rgb(94, 88, 88);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h2:hover {
+    color: rgb(57, 53, 53);
+}
+
+.about-text h4 {
+    color: rgb(57, 53, 53);
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize  ;
+}
+
+.about-text h4:hover {
+    color: rgb(94, 88, 88);
+}
+
+.about-text p {
+    color: rgb(57, 53, 53);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
